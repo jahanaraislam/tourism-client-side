@@ -1,0 +1,56 @@
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255)
+  }
+  .banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .banner-left .title{
+  
+    font-weight: 900;
+    font-size: 52px;
+  }
+  .banner-left .sub-title{
+    font-weight: 600;
+  }
+  .banner-left .bottom-text{
+    color:rgb(240, 230, 228)
+  }
+  /* .btn-container{
+   
+  } */
+ 
+    /* button */
+    .Birdily-btn {
+      background-color: rgb(24, 21, 16);
+      opacity: 0.78;
+      font-size: 19px;
+      font-weight: 600;
+      color: white;
+      border: 1px solid white;
+      font-weight: 400;
+      padding: 7px 17px;
+      text-align: left;
+      border-radius: 20px;
+      outline: 1px solid white; 
+      border: 0;
+      margin-left: 16px;
+      margin-top: 90px;
+     
+    }
+    .avantura-btn:hover{
+      background-color: white;
+      font-size: 19px;
+      font-weight: 400;
+      color: rgb(19, 17, 12);
+      border: rgb(22, 21, 21);
+     
+    }
+    /* font-family: 'Roboto', sans-serif;;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */

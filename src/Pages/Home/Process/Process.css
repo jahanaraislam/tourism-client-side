@@ -1,0 +1,33 @@
+/* process styles start */
+.process-container {
+    background-color: rgb(248, 242, 234);
+  }
+  .process .sub-title {
+    color: rgb(194, 140, 69);
+    font-size: 18px;
+  }
+  .fa-grip-lines {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .fa-grin-hearts {
+    font-size: 65px;
+    font-weight: 500;
+    color: #a47355;
+  }
+  .fa-address-book {
+    font-size: 65px;
+    font-weight: 500;
+    color: #a47355;
+  }
+  .fa-handshake {
+    font-size: 53px;
+    margin-top: 12px;
+    font-weight: 500;
+  
+    color: #a47355;
+  }
+  .process-right .title {
+    color: #a47355;
+    font-weight: 600;
+  }

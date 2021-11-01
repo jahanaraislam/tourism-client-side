@@ -1,0 +1,47 @@
+.card {
+  height: 435px;
+  border-radius: 20px;
+  position: relative;
+
+  background-color: rgb(253, 247, 241);
+}
+.singleDes {
+  overflow: hidden;
+}
+
+.card {
+  cursor: zoom-in;
+  transition: transform 0.5s ease;
+}
+.card:hover {
+  transform: scale(1.075);
+}
+.card img {
+  border-radius: 20px;
+  padding: 4px;
+  height: 180px;
+}
+
+.fa-star {
+  color: rgb(173, 120, 84);
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.book-now-btn {
+  background-color: rgb(5, 39, 37);
+  position: absolute;
+  font-size: 16px;
+  color: rgb(231, 226, 226);
+  border: 1px solid rgb(19, 10, 3);
+  font-weight: 600;
+  padding: 9px 0px;
+  text-align: left;
+  border-radius: 20px;
+  outline: 1px solid rgb(14, 6, 0);
+  width: 160px;
+  text-align: center;
+  margin: 16px auto;
+  top: 360px;
+  left: 60px;
+}

@@ -1,0 +1,20 @@
+.about-container{
+    background-color: rgb(250, 245, 239);
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+  }
+  .about img{
+      height: 460px;
+  }
+ 
+ 
+  .about-sub-title {
+    color: rgb(177, 116, 59);
+    font-size: 22px;
+    font-weight: 400;
+  }
+ 
+  

@@ -1,0 +1,26 @@
+/* login form styles */
+.login-form {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .google-signIn img {
+    width: 45px;
+    border-radius: 24px;
+  }
+  .google-btn,
+  .login-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(3, 56, 53);
+  }
+  .login-form input {
+    width: 300px;
+    margin-bottom: 5px;
+  }
+  .google-btn:hover,
+  .login-btn:hover{
+    background-color: rgb(48, 41, 3);
+    color:white;
+  }
+  

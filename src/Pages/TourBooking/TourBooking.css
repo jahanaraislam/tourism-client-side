@@ -1,0 +1,43 @@
+.booking-container {
+    background-color: rgb(229, 247, 243);
+  }
+  .booking {
+    width: 90%;
+  }
+  .top-part {
+    background-color: #012522;
+  }
+  .top-part p {
+    color: rgb(228, 224, 218);
+  }
+  .booking-left img {
+    border-radius: 10px;
+  }
+  .booking-left {
+    position: relative;
+  }
+  .booking-left .discount {
+    position: relative;
+    width: 130px;
+  }
+  .left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-container img {
+    height: 350px;
+  }
+ 
+  .order-box {
+    width: 500px;
+  }
+  .order-box {
+      background-color: rgb(146, 187, 187);
+      border-radius: 20px;
+  }
+  .booking-form input{
+      width:350px;
+      border-radius: 5px;
+      background-color: rgb(193, 226, 223);
+  }

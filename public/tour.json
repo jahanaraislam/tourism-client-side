@@ -1,0 +1,59 @@
+[
+    {
+        "countryName": "Italy",
+        "rating": "4.4",
+        "regularPrice": "$2,440",
+        "img": "https://cdn.tourradar.com/s3/cities/520x406/6247_e3e701.jpg",
+        "des": "Expat Explore presents Italian Delights - 12 days exploring the delights of Italy. From the fascinating cities with histories stretching back millennia to stunning Tuscan landscapes and legendary local cuisine, this promises to be an unforgettable holiday. See Rome, Pompeii, Sorrento, Assisi, Venice, Verona, Milan, the Italian Lakes, La Spezia (and Cinque Terre), Pisa and Florence"
+    },
+    {
+        "countryName": "Iceland",
+        "rating": "3.6",
+        "regularPrice": "$2,119",
+        "img": "https://cdn.tourradar.com/s3/cities/520x406/20258_670b11.jpg",
+        "des": "Discovery Nomads offers truly independent tours. No tour guides, no group leaders: Experience the freedom of solo travel where you have the time to go where you want to go, meet who you want to meet, and do what you want to do. Discovery Nomads organises 4 star hotel accommodation, comfortable and fast transportation by train or plane, sightseeing tours with local guides, and activities where you'll get to skip those long lines!"
+    },
+    {
+        "countryName": "Egypt",
+        "rating": "4.8",
+        "regularPrice": "$1,480",
+        "img": "https://cdn.tourradar.com/s3/cities/520x406/9605_3311ce.jpg",
+        "des": "Truly Egypt show you  views of Egypt, each unique and extraordinary.that allow you to taste both the grand history and modern dynamism of the city.evok romantic images of idyllic days spent drifting in luxury between the iconic sights of Ancient Egypt."
+    },
+    {
+        "countryName": "England",
+        "rating": "5",
+        "regularPrice": "$4,399",
+        "img": "https://cdn.tourradar.com/s3/cities/520x406/25922_8614eb.jpg",
+        "des": "VISIT:Blenheim Palace, Downton Abbey Village, the Cotswolds, Stonehenge, Windsor Castle, Bath, London Sightseeing Day Tour with Changing of the Guard ,Leeds Castle, Canterbury Cathedral, Dover"
+    },
+    {
+        "countryName": "Turkey",
+        "rating": "5",
+        "regularPrice": "$1,559",
+        "img": "https://cdn.tourradar.com/s3/cities/520x406/6901_e63237.jpg",
+        "des": "Visit the must-sees of Turkey with the 6-day Fantastic Turkey tour. Uncover Istanbul and it's unique beauty as you discover the old town. Hop on a Bosphorus cruise and soak in the beautiful city while sipping your cocktail. Witness the unique beauty of Cappadocia as you delve into underground cities, walk UNESCO Heritage open-air museum and climb fairy-chimneys. Take off on a balloon ride over the gorgeous valley before driving to Pamukkale. Dip your feet in thermal pools made of cotton. Then catch a flight to Istanbul to save time and travel in comfort."
+    },
+    {
+        "countryName": "Greece",
+        "rating": "4.5",
+        "regularPrice": "$1,393",
+        "img": "https://cdn.tourradar.com/s3/cities/520x406/5994_7426d7.jpg",
+        "des": "Visit Mykonos and Santorini; two of Greece’s most famous and beautiful islands. In this 5-day tour get hypnotised exploring the twisting streets by day and experience the stunning sunsets and fun nightlife in the evenings. The hassle of organising ferries and transport has been taken care of for you so that you can simply enjoy your getaway!"
+    },
+    {
+        "countryName": "London",
+        "rating": "4.5",
+        "regularPrice": "$915",
+        "img": "https://cdn.tourradar.com/s3/cities/520x406/11149_34453a.jpg",
+        "des": "London is one of the most vibrant and intriguing cities in the world.You will visit the most interesting sites of the city and discover some unique sites in the vicinity."
+    },
+    {
+        "countryName": "Egypt",
+       
+        "rating": "4.4",
+        "regularPrice": "$700",
+        "img": "https://cdn.tourradar.com/s3/tour/1500x800/134100_1e4d574e.jpg",
+        "des": "If you are looking for something different than the regular Nile Cruise, then sailing with Truly Egypt Tours is the cruise for you. Taking a turn of the beaten path, and the astounding temples of Karnak,valley of the kings, Sail the Nile in utmost luxury past historical cities of Luxor, Edfu, Kom Ombo and Aswan and take in the history at its fullest."
+    }
+]

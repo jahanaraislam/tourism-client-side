@@ -1,0 +1,46 @@
+.nav {
+  background-color: rgb(8, 8, 8);
+  opacity: 0.80;
+  padding: 34px 10px;
+}
+
+nav .nav-item {
+  color: white;
+
+  font-weight: 500;
+  list-style: none;
+  margin-left: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+nav .nav-item:hover {
+  color:#d65f24;
+}
+nav .nav-item:active {
+  color: #bd5f31;
+}
+
+#toggle{
+    color:#dc8051;
+}
+#toggle .fa-sliders-h{
+  color:#dc8051;
+  font-size: 30px;
+  font-weight: 900;
+}
+.login-btn {
+  color: white;
+  padding: 9px 22px;
+  font-weight: 900;
+  font-size: 16px;
+  word-spacing: 2px;
+  border: 1px solid white;
+  border-radius: 7px;
+  margin-right: 5px;
+  background-color:#553b1e;
+  opacity: 0.8;
+}
+

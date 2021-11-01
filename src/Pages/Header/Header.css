@@ -1,0 +1,18 @@
+/* header styles */
+header {
+    background-image: url(../../assets/banner.jpg);
+    width: 100vw;
+    height: 670px;
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+   
+  }
+  .overlay{
+     background-color: rgb(8, 8, 8);
+  opacity: 0.5;
+  height: 530px;
+  }
+  

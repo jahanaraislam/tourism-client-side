@@ -10,7 +10,7 @@ const AddTour = () => {
         formState: { errors },
       } = useForm();
       const onSubmit = (data) => {
-        fetch(`http://localhost:5000/addTour`, {
+        fetch(`https://calm-waters-83697.herokuapp.com/addTour`, {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(data),
@@ -19,9 +19,7 @@ const AddTour = () => {
           .then((result) => {
             if (result.insertedId) {
              alert("Tour added successfully")
-            } else {
-              alert("Tour added successfully");
-            }
+            } 
           });
     
         reset();

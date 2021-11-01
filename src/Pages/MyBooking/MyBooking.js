@@ -9,7 +9,7 @@ const MyBooking = () => {
   const [bookings, setBookings] = useState([]);
   const [control, setControl] = useState(false);
   useEffect(() => {
-    fetch(`http://localhost:5000/myBookings/${user?.email}`)
+    fetch(`https://calm-waters-83697.herokuapp.com/myBookings/${user?.email}`)
       .then((res) => res.json())
       .then((data) => setBookings(data));
   }, [user.email, control]);
@@ -17,7 +17,7 @@ const MyBooking = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure, u want to delete it?");
     if (proceed) {
-      fetch(`http://localhost:5000/deleteBooking/${id}`, {
+      fetch(`https://calm-waters-83697.herokuapp.com/deleteBooking/${id}`, {
         method: "DELETE",
         headers: { "content-type": "application/json" },
       })

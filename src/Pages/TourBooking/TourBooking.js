@@ -18,7 +18,7 @@ const TourBooking = () => {
   } = useForm();
   const onSubmit = (data) => {
     data.status = "pending";
-    fetch(`http://localhost:5000/addBooking`, {
+    fetch(`https://calm-waters-83697.herokuapp.com/addBooking`, {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
@@ -40,7 +40,7 @@ const TourBooking = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/singleTour/${tourId}`)
+    fetch(`https://calm-waters-83697.herokuapp.com/singleTour/${tourId}`)
       .then((res) => res.json())
       .then((data) => setTours(data));
   }, [tourId]);

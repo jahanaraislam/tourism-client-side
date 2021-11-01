@@ -9,14 +9,14 @@ const ManageAllBooking = () => {
 
   const [status, setStatus] = useState("pending");
   useEffect(() => {
-    fetch("http://localhost:5000/allBookings")
+    fetch("https://calm-waters-83697.herokuapp.com/allBookings")
       .then((res) => res.json())
       .then((data) => setBookings(data));
   }, [control]);
 
   const handleApproved = (id) => {
     const data = { status: "Approved" };
-    fetch(`http://localhost:5000/update/${id}`, {
+    fetch(`https://calm-waters-83697.herokuapp.com/update/${id}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
@@ -35,7 +35,7 @@ const ManageAllBooking = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure, u want to delete it?");
     if (proceed) {
-      fetch(`http://localhost:5000/Managebooking/${id}`, {
+      fetch(`https://calm-waters-83697.herokuapp.com/Managebooking/${id}`, {
         method: "DELETE",
         headers: { "content-type": "application/json" },
       })

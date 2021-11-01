@@ -19,8 +19,10 @@ const AddTour = () => {
           .then((result) => {
             if (result.insertedId) {
              alert("Tour added successfully")
-            } 
-          });
+            } else{
+                alert("Tour added successfully")
+            }
+          })
     
         reset();
       };

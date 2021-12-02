@@ -13,7 +13,7 @@ const ManageAllBooking = () => {
       .then((res) => res.json())
       .then((data) => setBookings(data));
   }, [control]);
-
+// changed
   const handleApproved = (id) => {
     const data = { status: "Approved" };
     fetch(`https://calm-waters-83697.herokuapp.com/update/${id}`, {
